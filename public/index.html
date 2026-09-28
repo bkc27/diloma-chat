@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma Group Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="join-container">
+        <div class="join-box">
+            <h1>Diploma Group Chat</h1>
+            <p>Enter Your Name, and Room ID to start chat</p>
+
+            <form action="chat.html">
+                <input type="text" name="name" 
+                placeholder="Enter Your Name" aria-label="Your name" maxlength="50" pattern=".*\S.*" required>
+                <input type="text" name="room" placeholder="Room ID" aria-label="Room ID" maxlength="100" pattern=".*\S.*" required>
+                <button type="submit">
+                    Join Room
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
